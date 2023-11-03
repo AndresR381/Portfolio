@@ -1,0 +1,127 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: #d44d4d;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: black;
+}
+
+.header-links {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.page {
+    color: #d44d4d;
+    text-decoration: none;
+}
+
+/* Landing Page */
+
+.lp-heading {
+    margin-top: 50vh;
+}
+
+.lp-text {
+    visibility: hidden;
+}
+
+.lp-heading:hover {
+    font-size: 60px;
+}
+
+.lp-welcome:hover .lp-text {
+    visibility: visible;
+}
+
+/* Home Page */
+
+.greeting {
+    padding-top: 50px;
+}
+
+.headshot {
+    height: 500px;
+    width: 400px;
+}
+
+/* About Page */
+
+.about {
+    padding-top: 50px;
+}
+
+.experience-text, .beyond-text {
+    width: 50%;
+}
+
+.learning-text {
+    width: 50%;
+    float: right;
+}
+
+/* Projects Page */
+
+.projects {
+    padding-top: 50px;
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.card-title a {
+    color: #d44d4d;
+}
+
+.card-image {
+    height: 200px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Contact Page */
+
+.contact {
+    padding-top: 50px;
+}
+
+.contact .subheading {
+    padding-top: 100px;
+}
+
+.h3 {
+    padding-bottom: 10px;
+}
+
+.social-link {
+    padding-right: 50px;
+}
+
+.subject {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+
+.colophon {
+    padding-top: 110px;
+    
+    font-size: 14px;
+}
+
+.clear {
+    clear: both;
+}
