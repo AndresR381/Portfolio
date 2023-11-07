@@ -1,7 +1,8 @@
 * {box-sizing: border-box;}
 
 body {
-    background-color: #d44d4d;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 5%, rgba(212,77,77,1) 40%, rgba(223,193,193,1) 75%);
     margin: 0;
     padding: 0;
 }
@@ -53,19 +54,15 @@ a {
     width: 400px;
 }
 
+.colophon {
+    margin-top: 25vh;
+    color: #d44d4d;
+}
+
 /* About Page */
 
 .about {
     padding-top: 50px;
-}
-
-.experience-text, .beyond-text {
-    width: 50%;
-}
-
-.learning-text {
-    width: 50%;
-    float: right;
 }
 
 /* Projects Page */
@@ -74,9 +71,12 @@ a {
     padding-top: 50px;
 }
 
-.card {
+.text {
+    padding-bottom: 20px;
+}
+
+.project-card {
     background-color: rgb(0, 0, 0);
-    margin-bottom: 30px;
     padding: 20px;
 }
 
@@ -115,13 +115,3 @@ a {
 }
 
 /* Footer */
-
-.colophon {
-    padding-top: 110px;
-    
-    font-size: 14px;
-}
-
-.clear {
-    clear: both;
-}
