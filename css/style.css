@@ -1,8 +1,7 @@
 * {box-sizing: border-box;}
 
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 5%, rgba(212,77,77,1) 40%, rgba(223,193,193,1) 75%);
+    background-color: antiquewhite;
     margin: 0;
     padding: 0;
 }
@@ -21,7 +20,7 @@ a {
 }
 
 .page {
-    color: #d44d4d;
+    color: antiquewhite;
     text-decoration: none;
 }
 
@@ -61,7 +60,7 @@ a {
 
 .colophon {
     margin-top: 25vh;
-    color: #d44d4d;
+    color: black;
 }
 
 /* About Page */
@@ -91,7 +90,7 @@ a {
 }
 
 .card-title a {
-    color: #d44d4d;
+    color: antiquewhite;
 }
 
 .card-image {
